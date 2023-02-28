@@ -31,6 +31,11 @@ alias pwrm='pnpm remove --workspace'
 alias pwu='pnpm update --workspace'
 alias pwls='pnpm list --workspace'
 
+# Link
+alias pln='pnpm link'
+alias pgln='pnpm link --global'
+alias plnrm='pnpm unlink'
+
 # Scripts
 alias pr='pnpm run'
 alias pb='pnpm run build'

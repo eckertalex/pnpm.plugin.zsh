@@ -68,6 +68,14 @@ To update, run `znap pull`.
 | `pwu`  | `pnpm update --workspace` | Update installed packages in workspace |
 | `pwls` | `pnpm list --workspace`   | List installed packages in workspace   |
 
+### Link
+
+| Alias  | Command                   | Description                            |
+| ------ | ------------------------- | -------------------------------------- |
+| `pln`  | `pnpm link`    | Link package |
+| `pgln`  | `pnpm link --global`    | Link package globally |
+| `plnrm`  | `pnpm unlink`    | Unlink package |
+
 ### Scripts
 
 | Alias   | Command                    | Description                                                     |
