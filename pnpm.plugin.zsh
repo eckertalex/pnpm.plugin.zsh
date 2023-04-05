@@ -48,7 +48,7 @@ alias pt='pnpm run test'
 alias ptc='pnpm run test --coverage'
 alias plt='pnpm run lint'
 alias pf='pnpm run format'
-alias pts='pnpm run typecheck'
+alias pty='pnpm run typecheck'
 
 # Config
 alias pcls='pnpm config list'

@@ -70,11 +70,11 @@ To update, run `znap pull`.
 
 ### Link
 
-| Alias  | Command                   | Description                            |
-| ------ | ------------------------- | -------------------------------------- |
-| `pln`  | `pnpm link`    | Link package |
-| `pgln`  | `pnpm link --global`    | Link package globally |
-| `plnrm`  | `pnpm unlink`    | Unlink package |
+| Alias   | Command              | Description           |
+| ------- | -------------------- | --------------------- |
+| `pln`   | `pnpm link`          | Link package          |
+| `pgln`  | `pnpm link --global` | Link package globally |
+| `plnrm` | `pnpm unlink`        | Unlink package        |
 
 ### Scripts
 
@@ -91,7 +91,7 @@ To update, run `znap pull`.
 | `ptc`   | `pnpm run test --coverage` | Run the **test** script defined in `package.json` with coverage |
 | `plt`   | `pnpm run lint`            | Run the **lint** script defined in `package.json`               |
 | `pf`    | `pnpm run format`          | Run the **format** script defined in `package.json`             |
-| `pts`   | `pnpm run typecheck`       | Run the **typecheck** script defined in `package.json`          |
+| `pty`   | `pnpm run typecheck`       | Run the **typecheck** script defined in `package.json`          |
 
 ### Config
 
@@ -116,6 +116,10 @@ To update, run `znap pull`.
 | `pevrm`  | `pnpm env remove --global` | Remove specified Node.js version globally |
 
 ## Changelog
+
+### 2023-04-05
+
+- Rename `pts` to `pty`
 
 ### 2023-02-20
 
